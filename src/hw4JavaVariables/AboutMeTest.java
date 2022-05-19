@@ -8,7 +8,7 @@ public class AboutMeTest {
 
 		aboutme.name = "AHM Rahman";
 
-// Variables are initialized
+		// Variables are initialized
 		aboutme.myAge = 110;
 		aboutme.myHouseMortgage = 4500;
 		aboutme.mySalary = 250000;
@@ -20,7 +20,7 @@ public class AboutMeTest {
 
 		aboutme.aboutMe(); // Method is initialized
 
-//		Second person information
+		//	Second person information
 
 		AboutMe aboutAlex = new AboutMe();// Constructor is initialized
 

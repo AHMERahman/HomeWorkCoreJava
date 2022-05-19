@@ -17,14 +17,14 @@ public class AboutMe {
 	public boolean usCitizen;
 	
 	
-//	Constructor is declared
+	//	Constructor is declared
 	
 	public AboutMe() {
 		System.out.println("\nThis is all about us.\n");
 
 	}
 
-//	Method is implemented here
+	//	Method is implemented here
 	
 	public void aboutMe() {
 
