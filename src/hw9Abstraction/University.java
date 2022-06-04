@@ -1,4 +1,4 @@
-package hw8Abstraction;
+package hw9Abstraction;
 
 public interface University {
 
@@ -6,6 +6,19 @@ public interface University {
 	public void playGround();
 	public void teacher();
 
+	default void gymnasium() {
+		
+	}
+	
+	public static void library() {
+		
+	}
+	
+	
+	
+	
+	
+	
 	/*
 	 * public University() {
 	 * 
@@ -15,6 +28,5 @@ public interface University {
 //	Constructor has the same name as Class
 //	Method declared in interface is implemented by a class and can be overriden
 //	A constructor cannot be overrriden
-
 
 }
