@@ -1,32 +1,16 @@
 package hw9Abstraction;
 
-public interface University {
+public interface University extends College, Hospital {
 
-	public void classSize();
-	public void playGround();
-	public void teacher();
-
-	default void gymnasium() {
-		
-	}
+//	i) how many keywords are used for the inheritance in Interface?
+//	Ans: One keyword - extends
 	
-	public static void library() {
-		
-	}
+//	Can an interface inherit other Interfaces, or a regular class or abstract class by extends key word?
+//	an interface can inherit another interface, but cannot inherit regular or abstract class
+//	How many inheritance is possible? Ans: one or more interfaces
+//	University extends College, Hospital
 	
 	
 	
 	
-	
-	
-	/*
-	 * public University() {
-	 * 
-	 * }
-	 */
-//	No you cannot create a constructor inside an interface
-//	Constructor has the same name as Class
-//	Method declared in interface is implemented by a class and can be overriden
-//	A constructor cannot be overrriden
-
 }
